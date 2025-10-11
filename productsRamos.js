@@ -493,5 +493,5 @@ const productsRamos =[
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
-    },
+    }
 ];
