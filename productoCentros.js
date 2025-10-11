@@ -141,5 +141,5 @@ const productsCentros =[
         ],
         colors: ["#FFFFFF", "#000000", "#808080"],
         category: "centros"
-    }
+    },
 ];
