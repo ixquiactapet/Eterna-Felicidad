@@ -12,7 +12,7 @@ const productsCentros =[
     },
     {
         id: 2,
-        name: "Centro Moderno con Rosa y veladora",
+        name: "Centro Moderno con Rosas y veladora",
         description: "Diseño moderno con elementos flores, ideal para eventos contemporáneos.",
         price: 60,
         images: [
@@ -23,7 +23,7 @@ const productsCentros =[
     },
     {
         id: 3,
-        name: "Centro Moderno con rosa eternas",
+        name: "Centro Moderno con rosas eternas",
         description: "/",
         price: 50,
         images: [
@@ -34,7 +34,7 @@ const productsCentros =[
     },
     {
         id: 4,
-        name: "Ramo de centro mesa",
+        name: "Ramo de centro de mesa",
         description: " 4",
         price: 95,
         images: [
@@ -67,7 +67,7 @@ const productsCentros =[
     },
     {
         id: 7,
-        name: "Encanto florar",
+        name: "Encanto floral",
         description: " 7",
         price: 100,
         images: [
@@ -111,7 +111,7 @@ const productsCentros =[
     },
     {
         id: 11,
-        name: "Perna de Corazon",
+        name: "Perla de Corazón",
         description: " 11",
         price: 60,
         images: [
@@ -122,7 +122,7 @@ const productsCentros =[
     },
     {
         id: 12,
-        name: "Encato Rosal",
+        name: "Encanto Rosal",
         description: " 12",
         price: 130,
         images: [
