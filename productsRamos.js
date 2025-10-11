@@ -493,25 +493,5 @@ const productsRamos =[
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
-    },{
-        id: 51,
-        name: "51",
-        description: "51",
-        price: 180,
-        images: [
-            "imagen/Ramo-Flores/Ramo28.jpeg"
-        ],
-        colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
-        category: "ramos"
-    },{
-        id: 52,
-        name: "52",
-        description: "52",
-        price: 180,
-        images: [
-            "imagen/Ramo-Flores/Ramo29.jpeg"
-        ],
-        colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
-        category: "ramos"
     },
 ];
