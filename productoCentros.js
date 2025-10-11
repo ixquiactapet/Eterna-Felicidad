@@ -3,7 +3,7 @@ const productsCentros =[
         id: 1,
         name: "Centro de Mesa Floral",
         description: "Hermoso centro de mesa con flores eternas.",
-        price: 120,
+        price: 75,
         images: [
             "imagen/Centro-Mesa/Centro1.jpeg",
         ],
@@ -14,7 +14,7 @@ const productsCentros =[
         id: 2,
         name: "Centro Moderno con Rosa y veladora",
         description: "Diseño moderno con elementos flores, ideal para eventos contemporáneos.",
-        price: 95,
+        price: 60,
         images: [
             "imagen/Centro-Mesa/Centro2.jpeg"
         ],
@@ -25,7 +25,7 @@ const productsCentros =[
         id: 3,
         name: "Centro Moderno con rosa eternas",
         description: "/",
-        price: 95,
+        price: 50,
         images: [
             "imagen/Centro-Mesa/Centro3.jpeg"
         ],
@@ -34,7 +34,7 @@ const productsCentros =[
     },
     {
         id: 4,
-        name: "4",
+        name: "Ramo de centro mesa",
         description: " 4",
         price: 95,
         images: [
@@ -45,9 +45,9 @@ const productsCentros =[
     },
     {
         id: 5,
-        name: "5",
+        name: "Copa de Rosas",
         description: " 5",
-        price: 95,
+        price: 150,
         images: [
             "imagen/Centro-Mesa/Centro5.jpeg"
         ],
@@ -56,9 +56,9 @@ const productsCentros =[
     },
     {
         id: 6,
-        name: "6",
+        name: "Centro de mesa Dulce Primavera",
         description: " 6",
-        price: 95,
+        price: 65,
         images: [
             "imagen/Centro-Mesa/Centro6.jpeg"
         ],
@@ -67,9 +67,9 @@ const productsCentros =[
     },
     {
         id: 7,
-        name: "7",
+        name: "Encanto florar",
         description: " 7",
-        price: 95,
+        price: 100,
         images: [
             "imagen/Centro-Mesa/Centro7.jpeg"
         ],
@@ -78,9 +78,9 @@ const productsCentros =[
     },
     {
         id: 8,
-        name: "4",
-        description: " 8",
-        price: 95,
+        name: "Centro de mesa Sueño de Princesa",
+        description: " Rosas echo con papel clepe",
+        price: 40,
         images: [
             "imagen/Centro-Mesa/Centro8.jpeg"
         ],
@@ -89,9 +89,9 @@ const productsCentros =[
     },
     {
         id: 9,
-        name: "9",
+        name: "Rosa Encantada",
         description: " 9",
-        price: 95,
+        price: 65,
         images: [
             "imagen/Centro-Mesa/Centro9.jpeg"
         ],
@@ -100,9 +100,9 @@ const productsCentros =[
     },
     {
         id: 10,
-        name: "10",
+        name: "Sueño de Colores",
         description: " 10",
-        price: 95,
+        price: 150,
         images: [
            "imagen/Centro-Mesa/Centro10.jpeg"
         ],
@@ -111,9 +111,9 @@ const productsCentros =[
     },
     {
         id: 11,
-        name: "11",
+        name: "Perna de Corazon",
         description: " 11",
-        price: 95,
+        price: 60,
         images: [
             "imagen/Centro-Mesa/Centro11.jpeg"
         ],
@@ -122,9 +122,9 @@ const productsCentros =[
     },
     {
         id: 12,
-        name: "12",
+        name: "Encato Rosal",
         description: " 12",
-        price: 95,
+        price: 130,
         images: [
             "imagen/Centro-Mesa/Centro12.jpeg"
         ],
@@ -133,33 +133,11 @@ const productsCentros =[
     },
     {
         id: 13,
-        name: "13",
+        name: "Brillo Eterno",
         description: " 13",
-        price: 95,
+        price: 70,
         images: [
             "imagen/Centro-Mesa/Centro13.jpeg"
-        ],
-        colors: ["#FFFFFF", "#000000", "#808080"],
-        category: "centros"
-    },
-    {
-        id: 14,
-        name: "14",
-        description: " 14",
-        price: 95,
-        images: [
-            "imagen/Centro-Mesa/Centro14.jpeg"
-        ],
-        colors: ["#FFFFFF", "#000000", "#808080"],
-        category: "centros"
-    },
-    {
-        id: 15,
-        name: "15",
-        description: " 15",
-        price: 95,
-        images: [
-            "imagen/Centro-Mesa/Centro15.jpeg"
         ],
         colors: ["#FFFFFF", "#000000", "#808080"],
         category: "centros"
