@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eterna - Felicidad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i>🎪</i> ETERNA FELICIDAD
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="nav-link active" data-category="all">Inicio</a></li>
+                        <li><a href="#" class="nav-link" data-category="mesas">Mesas y Sillas</a></li>
+                        <li><a href="#" class="nav-link" data-category="centros">Centros de Mesa</a></li>
+                        <li><a href="#" class="nav-link" data-category="ramos">Ramos y Regalos</a></li>
+                        <li><a href="#" class="nav-link" data-category="tarjetas">Tarjetas</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Rosas Eternas que Capturan la Belleza y producto para tus Eventos</h1>
+            <p>Descubre nuestra exclusiva colección de rosas preservadas que mantienen su belleza natural por años sin necesidad de cuidados especiales y nuestros productos que harán que tu fiesta sea único.</p>
+        </div>
+    </section>
+
+    <!-- Página de Inicio - Categorías -->
+    <section id="home-page" class="page active">
+        <div class="container">
+            <h2 class="section-title">Nuestras Categorías</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="mesas">
+                    <div class="category-image">
+                        <img src="imagen/Categorias/mesasC.jpg" alt="Alquiler de Mesas y Sillas">
+                    </div>
+                    <div class="category-info">
+                        <h3>Alquiler de Mesas y Sillas</h3>
+                        <p>Mobiliario para todo tipo de eventos</p>
+                        <button class="btn-category">Ver Catálogo</button>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="centros">
+                    <div class="category-image">
+                        <img src="imagen/Categorias/CentrosC.jpg" alt="Centros de Mesa">
+                    </div>
+                    <div class="category-info">
+                        <h3>Centros de Mesa</h3>
+                        <p>Decoración elegante para tus mesas</p>
+                        <button class="btn-category">Ver Catálogo</button>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="ramos">
+                    <div class="category-image">
+                        <img src="imagen/Categorias/Ramo1.jpeg" alt="Ramos de Flores y Regalos">
+                    </div>
+                    <div class="category-info">
+                        <h3>Ramos de Flores y Regalos</h3>
+                        <p>Flores frescas y regalos especiales</p>
+                        <button class="btn-category">Ver Catálogo</button>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="tarjetas">
+                    <div class="category-image">
+                        <img src="images/tarjetas-categoria.jpg" alt="Tarjetas de Invitación">
+                    </div>
+                    <div class="category-info">
+                        <h3>Tarjetas de Invitación</h3>
+                        <p>Diseños únicos para tus invitaciones</p>
+                        <button class="btn-category">Ver Catálogo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Páginas de Catálogos por Categoría -->
+    <section id="catalog-pages" class="container">
+        <!-- Las páginas de catálogo se cargarán aquí dinámicamente -->
+    </section>
+
+    <!-- Modal para Productos -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-product-content">
+                <!-- Contenido del producto se carga aquí -->
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/50241995025" class="whatsapp-float" target="_blank">
+        💬
+        <span class="whatsapp-tooltip">¡Pedidos por WhatsApp!</span>
+    </a>
+    <script src="productoMesas.js"></script>
+    <script src="productoCentros.js"></script>  <!-- PRIMERO los datos -->
+    <script src="productsRamos.js"></script>
+    <script src="productsTarjetas.js"></script>
+    <script src="script.js"></script>           <!-- LUEGO la lógica -->
+
+</body>
+</html>
