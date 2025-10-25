@@ -1,8 +1,8 @@
 const productsRamos =[
     {
         id: 1,
-        name: "1",
-        description: "1",
+        name: "Caja de Rosas",
+        description: "-",
         price: 180,
         images: [
             "imagen/Ramo-Flores/Caja1.jpeg"
@@ -12,9 +12,9 @@ const productsRamos =[
     },
     {
         id: 2,
-        name: "2",
-        description: "2",
-        price: 220,
+        name: "Ramo de Stich",
+        description: "-",
+        price: 250,
         images: [
             "imagen/Ramo-Flores/Ramo1.jpeg"
         ],
@@ -23,9 +23,9 @@ const productsRamos =[
     },
     {
         id: 3,
-        name: "3",
-        description: "3",
-        price: 180,
+        name: "Ramo de Dinero y Rosas",
+        description: "-",
+        price: 250,
         images: [
             "imagen/Ramo-Flores/RamoBillete1.jpeg"
         ],
@@ -34,9 +34,9 @@ const productsRamos =[
     },
     {
         id: 4,
-        name: "4",
-        description: "4",
-        price: 180,
+        name: "Flores que no mueren",
+        description: "-",
+        price: 70,
         images: [
             "imagen/Ramo-Flores/RamoCaja1.jpeg"
         ],
@@ -45,9 +45,9 @@ const productsRamos =[
     },
     {
         id: 5,
-        name: "5",
-        description: "5",
-        price: 180,
+        name: "Ramo de Hot Wheels",
+        description: "-",
+        price: 90,
         images: [
             "imagen/Ramo-Flores/RamoCarro1.jpeg"
         ],
@@ -55,9 +55,9 @@ const productsRamos =[
         category: "ramos"
     },{
         id: 6,
-        name: "6",
-        description: "",
-        price: 180,
+        name: "Rosas y Peluche con traje Personaizado",
+        description: "-",
+        price: 250,
         images: [
             "imagen/Ramo-Flores/RamoD1.jpeg"
         ],
@@ -65,9 +65,9 @@ const productsRamos =[
         category: "ramos"
     },{
         id: 7,
-        name: "7",
-        description: "7",
-        price: 180,
+        name: "Caja Sorpresa",
+        description: "-",
+        price: 150,
         images: [
             "imagen/Ramo-Flores/Caja2.jpeg"
         ],
@@ -75,9 +75,9 @@ const productsRamos =[
         category: "ramos"
     },{
         id: 8,
-        name: "8",
-        description: "8",
-        price: 180,
+        name: "Flores Eternas",
+        description: "-",
+        price: 120,
         images: [
             "imagen/Ramo-Flores/Ramo2.jpeg"
         ],
@@ -85,9 +85,9 @@ const productsRamos =[
         category: "ramos"
     },{
         id: 9,
-        name: "9",
-        description: "9",
-        price: 180,
+        name: "Ramo de Margaritas",
+        description: "-",
+        price: 200,
         images: [
             "imagen/Ramo-Flores/RamoBillete2.jpeg"
         ],
@@ -95,9 +95,9 @@ const productsRamos =[
         category: "ramos"
     },{
         id: 10,
-        name: "10",
-        description: "10",
-        price: 180,
+        name: "Círculo de vida",
+        description: "-",
+        price: 150,
         images: [
             "imagen/Ramo-Flores/RamoCaja2.jpeg"
         ],
@@ -105,9 +105,9 @@ const productsRamos =[
         category: "ramos"
     },{
         id: 11,
-        name: "11",
-        description: "11",
-        price: 180,
+        name: "Ramo de Spider Man",
+        description: "-",
+        price: 140,
         images: [
             "imagen/Ramo-Flores/RamoCarro2.jpeg"
         ],
@@ -115,9 +115,9 @@ const productsRamos =[
         category: "ramos"
     },{
         id: 12,
-        name: "12",
-        description: "12",
-        price: 180,
+        name: "Ramo de Golosinas y Hot wheels",
+        description: "-",
+        price: 170,
         images: [
             "imagen/Ramo-Flores/RamoD2.jpeg"
         ],
@@ -125,9 +125,9 @@ const productsRamos =[
         category: "ramos"
     },{
         id: 13,
-        name: "13",
-        description: "13",
-        price: 180,
+        name: "Ramo a toda velocidad",
+        description: "-",
+        price: 130,
         images: [
             "imagen/Ramo-Flores/Caja3.jpeg"
         ],
@@ -135,9 +135,9 @@ const productsRamos =[
         category: "ramos"
     },{
         id: 14,
-        name: "14",
-        description: "14",
-        price: 180,
+        name: "Granada de Girasol",
+        description: "-",
+        price: 35,
         images: [
             "imagen/Ramo-Flores/Ramo3.jpeg"
         ],
@@ -145,9 +145,9 @@ const productsRamos =[
         category: "ramos"
     },{
         id: 15,
-        name: "15",
-        description: "15",
-        price: 180,
+        name: "Rosas con Dinero",
+        description: "-",
+        price: 150,
         images: [
             "imagen/Ramo-Flores/RamoBillete3.jpeg"
         ],
@@ -155,88 +155,88 @@ const productsRamos =[
         category: "ramos"
     },{
         id: 16,
-        name: "16",
-        description: "16",
-        price: 180,
+        name: "Corazón de Rosas y chocolate",
+        description: "-",
+        price: 170,
         images: [
             "imagen/Ramo-Flores/RamoCaja3.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 18,
-        name: "18",
-        description: "18",
-        price: 180,
+        id: 17,
+        name: "Pink Flowers",
+        description: "-",
+        price: 250,
         images: [
             "imagen/Ramo-Flores/RamoD3.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 19,
-        name: "19",
-        description: "19",
-        price: 180,
+        id: 18,
+        name: "Suspiro del cielo",
+        description: "-",
+        price: 150,
         images: [
             "imagen/Ramo-Flores/Ramo4.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 20,
-        name: "20",
-        description: "20",
-        price: 180,
+        id: 19,
+        name: "Alma Eterna",
+        description: "-",
+        price: 260,
         images: [
             "imagen/Ramo-Flores/RamoCaja4.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 21,
-        name: "21",
-        description: "21",
-        price: 180,
+        id: 20,
+        name: "Coche y Flor",
+        description: "-",
+        price: 70,
         images: [
             "imagen/Ramo-Flores/RamoCarro4.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 22,
-        name: "22",
-        description: "22",
-        price: 180,
+        id: 21,
+        name: "Regalo Personalizado",
+        description: "-",
+        price: 150,
         images: [
             "imagen/Ramo-Flores/RamoD4.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 23,
-        name: "23",
-        description: "23",
-        price: 180,
+        id: 22,
+        name: "Tulipanes Eternas",
+        description: "-",
+        price: 65,
         images: [
             "imagen/Ramo-Flores/Ramo5.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 24,
-        name: "24",
-        description: "24",
-        price: 180,
+        id: 23,
+        name: "Elegancia",
+        description: "-",
+        price: 270,
         images: [
             "imagen/Ramo-Flores/RamoCaja5.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 25,
-        name: "25",
-        description: "25",
+        id: 24,
+        name: "Ramo Velóz",
+        description: "-",
         price: 180,
         images: [
             "imagen/Ramo-Flores/RamoCarro5.jpeg"
@@ -244,250 +244,240 @@ const productsRamos =[
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 26,
-        name: "26",
-        description: "26",
-        price: 180,
+        id: 25,
+        name: "Rosa Individual",
+        description: "-",
+        price: 25,
         images: [
             "imagen/Ramo-Flores/Ramo6.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 27,
-        name: "27",
-        description: "27",
-        price: 180,
+        id: 26,
+        name: "Luxury Wheels",
+        description: "-",
+        price: 145,
         images: [
             "imagen/Ramo-Flores/RamoCaja6.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 28,
-        name: "28",
-        description: "28",
-        price: 180,
+        id: 27,
+        name: "Ramo Sobre Ruedas",
+        description: "-",
+        price: 130,
         images: [
             "imagen/Ramo-Flores/RamoCarro6.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 29,
-        name: "29",
-        description: "29",
-        price: 180,
+        id: 28,
+        name: "Buchon de rosas",
+        description: "-",
+        price: 750,
         images: [
             "imagen/Ramo-Flores/Ramo7.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 30,
-        name: "30",
-        description: "30",
-        price: 180,
+        id: 29,
+        name: "Ruta Dorada",
+        description: "-",
+        price: 85,
         images: [
             "imagen/Ramo-Flores/RamoCarro7.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 31,
-        name: "31",
-        description: "31",
-        price: 180,
+        id: 30,
+        name: "--_--",
+        description: "-",
+        price: 300,
         images: [
             "imagen/Ramo-Flores/Ramo8.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 32,
-        name: "32",
-        description: "32",
-        price: 180,
+        id: 31,
+        name: "--_--",
+        description: "-",
+        price: 55,
         images: [
             "imagen/Ramo-Flores/RamoCarro8.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 33,
-        name: "33",
-        description: "33",
-        price: 180,
+        id: 32,
+        name: "Ramo Deportivo",
+        description: "-",
+        price: 160,
         images: [
             "imagen/Ramo-Flores/Ramo9.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 34,
-        name: "34",
-        description: "34",
-        price: 180,
+        id: 33,
+        name: "Ramo de Tulipanes",
+        description: "-",
+        price: 300,
         images: [
             "imagen/Ramo-Flores/Ramo10.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 35,
-        name: "35",
-        description: "35",
-        price: 180,
+        id: 34,
+        name: "--_--",
+        description: "-",
+        price: 80,
         images: [
             "imagen/Ramo-Flores/Ramo11.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 36,
-        name: "36",
-        description: "36",
-        price: 180,
+        id: 35,
+        name: "Ramo de rosas amarillas",
+        description: "-",
+        price: 175,
         images: [
             "imagen/Ramo-Flores/Ramo12.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 37,
-        name: "37",
-        description: "37",
-        price: 180,
+        id: 36,
+        name: "--_--",
+        description: "-",
+        price: 100,
         images: [
             "imagen/Ramo-Flores/Ramo13.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 38,
-        name: "38",
-        description: "38",
-        price: 180,
+        id: 37,
+        name: "--_--",
+        description: "-",
+        price: 100,
         images: [
             "imagen/Ramo-Flores/Ramo14.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 39,
-        name: "39",
-        description: "39",
-        price: 180,
+        id: 38,
+        name: "--_--",
+        description: "-",
+        price: 90,
         images: [
             "imagen/Ramo-Flores/Ramo15.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 40,
-        name: "40",
-        description: "40",
-        price: 180,
+        id: 39,
+        name: "--_--",
+        description: "-",
+        price: 50,
         images: [
             "imagen/Ramo-Flores/Ramo16.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 41,
-        name: "41",
-        description: "41",
-        price: 180,
+        id: 40,
+        name: "Ramo de Rosas Mixtas",
+        description: "-",
+        price: 225,
         images: [
             "imagen/Ramo-Flores/Ramo17.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 42,
-        name: "42",
-        description: "42",
-        price: 180,
+        id: 41,
+        name: "Ramo Animado",
+        description: "-",
+        price: 500,
         images: [
             "imagen/Ramo-Flores/Ramo18.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 43,
-        name: "43",
-        description: "43",
-        price: 180,
+        id: 42,
+        name: "Rosas con girasol",
+        description: "-",
+        price: 110,
         images: [
             "imagen/Ramo-Flores/Ramo19.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 44,
-        name: "44",
-        description: "44",
-        price: 180,
-        images: [
-            "imagen/Ramo-Flores/Ramo20.jpeg"
-        ],
-        colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
-        category: "ramos"
-    },{
-        id: 45,
-        name: "45",
-        description: "45",
-        price: 180,
+        id: 43,
+        name: "--_--",
+        description: "",
+        price: 190,
         images: [
             "imagen/Ramo-Flores/Ramo21.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 46,
-        name: "46",
-        description: "46",
-        price: 180,
+        id: 44,
+        name: "--_--",
+        description: "-",
+        price: 95,
         images: [
             "imagen/Ramo-Flores/Ramo22.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 47,
-        name: "47",
-        description: "47",
-        price: 180,
+        id: 45,
+        name: "--_--",
+        description: "-",
+        price: 450,
         images: [
             "imagen/Ramo-Flores/Ramo23.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 48,
-        name: "48",
-        description: "48",
-        price: 180,
+        id: 46,
+        name: "--_--",
+        description: "-",
+        price: 280,
         images: [
             "imagen/Ramo-Flores/Ramo24.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 49,
-        name: "49",
-        description: "49",
-        price: 180,
+        id: 47,
+        name: "Rosas Arcoiris",
+        description: "-",
+        price: 200,
         images: [
             "imagen/Ramo-Flores/Ramo25.jpeg"
         ],
         colors: ["#FF0000", "#FF69B4", "#FFFFFF"],
         category: "ramos"
     },{
-        id: 50,
-        name: "50",
-        description: "50",
-        price: 180,
+        id: 48,
+        name: "Girasol individual",
+        description: "-",
+        price: 40,
         images: [
             "imagen/Ramo-Flores/Ramo26.jpeg"
         ],
