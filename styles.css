@@ -531,3 +531,115 @@ nav ul li a.active {
         padding: 20px;
     }
 }
+/* ===== LIGHTBOX / ZOOM DE IMAGEN ===== */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    animation: fadeIn 0.3s ease;
+}
+
+.lightbox-content {
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: zoomIn 0.3s ease;
+}
+
+.lightbox-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+.close-lightbox {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 2001;
+}
+
+.close-lightbox:hover {
+    color: #ff6b81;
+    transform: scale(1.1);
+}
+
+.lightbox-caption {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.lightbox-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    transform: translateY(-50%);
+}
+
+.lightbox-prev, .lightbox-next {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.lightbox-prev:hover, .lightbox-next:hover {
+    background: rgba(255, 107, 129, 0.8);
+    transform: scale(1.1);
+}
+
+@keyframes zoomIn {
+    from { transform: translateY(-50%) scale(0.8); opacity: 0; }
+    to { transform: translateY(-50%) scale(1); opacity: 1; }
+}
+
+/* Hacer que las imágenes del modal sean clickeables */
+.modal-main-image {
+    cursor: zoom-in;
+    transition: transform 0.3s ease;
+}
+
+.modal-main-image:hover {
+    transform: scale(1.02);
+}
+
+.thumbnail {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
