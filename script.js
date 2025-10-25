@@ -150,6 +150,8 @@ function initializeModal() {
             closeModal();
         }
     });
+    // INICIALIZAR LIGHTBOX
+    initializeLightbox();
 }
 
 // Abrir modal de producto
@@ -248,6 +250,7 @@ Por favor confirmen disponibilidad y procedimiento de pago.
     closeModal();
 }
 
+
 // WhatsApp Float Button
 document.querySelector('.whatsapp-float').addEventListener('click', function(e) {
     if (currentCategory !== 'all') {
@@ -259,3 +262,91 @@ document.querySelector('.whatsapp-float').addEventListener('click', function(e) 
         window.open(url, '_blank');
     }
 });
+
+// ===== LIGHTBOX / ZOOM DE IMAGEN =====
+
+// Variables para el lightbox
+let currentLightboxImages = [];
+let currentLightboxIndex = 0;
+
+// Inicializar lightbox
+function initializeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    const closeBtn = document.querySelector('.close-lightbox');
+    const prevBtn = document.querySelector('.lightbox-prev');
+    const nextBtn = document.querySelector('.lightbox-next');
+
+    // Cerrar lightbox
+    closeBtn.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', function(e) {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+
+    // Navegación
+    prevBtn.addEventListener('click', showPrevImage);
+    nextBtn.addEventListener('click', showNextImage);
+
+    // Cerrar con ESC
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeLightbox();
+        } else if (e.key === 'ArrowLeft') {
+            showPrevImage();
+        } else if (e.key === 'ArrowRight') {
+            showNextImage();
+        }
+    });
+}
+
+// Abrir lightbox
+function openLightbox(images, startIndex = 0, productName = '') {
+    currentLightboxImages = images;
+    currentLightboxIndex = startIndex;
+    
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.getElementById('lightbox-image');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+
+    lightboxImage.src = images[startIndex];
+    lightboxCaption.textContent = `${productName} (${startIndex + 1}/${images.length})`;
+    
+    lightbox.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+}
+
+// Cerrar lightbox
+function closeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    lightbox.style.display = 'none';
+    document.body.style.overflow = 'auto';
+    currentLightboxImages = [];
+    currentLightboxIndex = 0;
+}
+
+// Mostrar imagen anterior
+function showPrevImage() {
+    if (currentLightboxImages.length === 0) return;
+    
+    currentLightboxIndex = (currentLightboxIndex - 1 + currentLightboxImages.length) % currentLightboxImages.length;
+    updateLightboxImage();
+}
+
+// Mostrar siguiente imagen
+function showNextImage() {
+    if (currentLightboxImages.length === 0) return;
+    
+    currentLightboxIndex = (currentLightboxIndex + 1) % currentLightboxImages.length;
+    updateLightboxImage();
+}
+
+// Actualizar imagen del lightbox
+function updateLightboxImage() {
+    const lightboxImage = document.getElementById('lightbox-image');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+    const productName = lightboxCaption.textContent.split(' (')[0];
+
+    lightboxImage.src = currentLightboxImages[currentLightboxIndex];
+    lightboxCaption.textContent = `${productName} (${currentLightboxIndex + 1}/${currentLightboxImages.length})`;
+}
